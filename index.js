@@ -31,7 +31,7 @@ client.on('messageCreate', message => {
     if (message.author.bot) return;
 
     if (message.content === '!salam') {
-        message.reply('Aleykum salam, mən Render-ə hazırlaşıram!');
+        message.reply('Aleykum salam, mən Mafia Game qurucusu!');
     }
 });
 
